@@ -1,4 +1,4 @@
-# Easy-Animator---MVC-architecture-
+# Easy-Animator -- MVC architecture
 Easy Animator
 
 Introduction
