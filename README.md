@@ -1,7 +1,8 @@
 # Easy-Animator -- MVC architecture
 # Introduction
-This project follows the MVC architecture to complete the transformation from flat graphics to effective animations. It draws animations based on how the descriptions from text, independent of how the descriptions are generated. 
-The main of EasyAnimator class read the input from Terminal to the controller, and output the corresponding files and views depending on the read parameters. The format of the input command such as:
+This project follows the MVC architecture to complete the transformation from flat graphics to effective animations. It draws animations based on how the descriptions from text, independent of how the descriptions are generated. <br>
+The main of EasyAnimator class read the input from Terminal to the controller, and output the corresponding files and views depending on the read parameters. <br>
+The format of the input command such as:<br>
  -in "name-of-animation-file" -view "type-of-view" -out "where-output-show-go" -speed "integer-ticks-per-second"
 
 
