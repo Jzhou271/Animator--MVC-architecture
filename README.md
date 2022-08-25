@@ -88,18 +88,18 @@ AnimationReader implements the methods in the AnimationBuilder interface, uses t
 This main class represents switch of animation. It creates an Application run configuration in Eclipse/IntelliJ that chooses cs5004.animator.EasyAnimator as its main class. it will read in command line, and to decide which of views been called, pass input to model and view. 
 
 Instruction of using EasyAnimator
-Using IntelliJ → Run → Edit Configuration, enter the formatting of command line as:
+Using IntelliJ → Run → Edit Configuration, enter the formatting of command line as:<br>
  -in "Enter file name" -view "view type" -out "output of file path" -speed "frames per second"
  
  Example：
- -in src/main/resources/testfiles/smalldemo.txt -view svg -out src/main/resources/svgs/out.svg -speed 20 
+ -in src/main/resources/testfiles/smalldemo.txt -view svg -out src/main/resources/svgs/out.svg -speed 20 <br>
  (Take src/main/resources/testfiles/smalldemo.txt with speed 20 output SVG file. The output of file path is located in src/main/resources/svgs/out.svg)
  
- -in src/main/resources/testfiles/smalldemo.txt -view visual 
+ -in src/main/resources/testfiles/smalldemo.txt -view visual <br>
  Display visual view of smalldemo.txt
  
- -in src/main/resources/testfiles/smalldemo.txt -view text 
+ -in src/main/resources/testfiles/smalldemo.txt -view text <br>
  Text output of smalldemo.txt
  
- -in src/main/resources/testfiles/buildings.txt -view playback 
+ -in src/main/resources/testfiles/buildings.txt -view playback <br>
  Display playback with bottons, includes loop, start, resume, restart, increase-speed, decrease-speed.
