@@ -95,13 +95,13 @@ Using IntelliJ → Run → Edit Configuration, enter the formatting of command l
  
  Example：
  -in src/main/resources/testfiles/smalldemo.txt -view svg -out src/main/resources/svgs/out.svg -speed 20 
- # (Take src/main/resources/testfiles/smalldemo.txt with speed 20 output SVG file. The output of file path is located in src/main/resources/svgs/out.svg)
+ (Take src/main/resources/testfiles/smalldemo.txt with speed 20 output SVG file. The output of file path is located in src/main/resources/svgs/out.svg)
  
  -in src/main/resources/testfiles/smalldemo.txt -view visual 
- # Display visual view of smalldemo.txt
+ Display visual view of smalldemo.txt
  
  -in src/main/resources/testfiles/smalldemo.txt -view text 
- # Text output of smalldemo.txt
+ Text output of smalldemo.txt
  
  -in src/main/resources/testfiles/buildings.txt -view playback 
- # Display playback with bottons, includes loop, start, resume, restart, increase-speed, decrease-speed.
+ Display playback with bottons, includes loop, start, resume, restart, increase-speed, decrease-speed.
