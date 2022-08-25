@@ -91,10 +91,17 @@ This main class represents switch of animation. It creates an Application run co
 
 Instruction of using EasyAnimator
 Using IntelliJ → Run → Edit Configuration, enter the formatting of command line as:
-
  -in "Enter file name" -view "view type" -out "output of file path" -speed "frames per second"
+ 
  Example：
- -in src/main/resources/testfiles/smalldemo.txt -view svg -out src/main/resources/svgs/out.svg -speed 20 # (Take src/main/resources/testfiles/smalldemo.txt with speed 20 output SVG file. The output of file path is located in src/main/resources/svgs/out.svg)
- -in src/main/resources/testfiles/smalldemo.txt -view visual # Display visual view of smalldemo.txt
- -in src/main/resources/testfiles/smalldemo.txt -view text # Text output of smalldemo.txt
- -in src/main/resources/testfiles/buildings.txt -view playback # Display playback with bottons, includes loop, start, resume, restart, increase-speed, decrease-speed.
+ -in src/main/resources/testfiles/smalldemo.txt -view svg -out src/main/resources/svgs/out.svg -speed 20 
+ # (Take src/main/resources/testfiles/smalldemo.txt with speed 20 output SVG file. The output of file path is located in src/main/resources/svgs/out.svg)
+ 
+ -in src/main/resources/testfiles/smalldemo.txt -view visual 
+ # Display visual view of smalldemo.txt
+ 
+ -in src/main/resources/testfiles/smalldemo.txt -view text 
+ # Text output of smalldemo.txt
+ 
+ -in src/main/resources/testfiles/buildings.txt -view playback 
+ # Display playback with bottons, includes loop, start, resume, restart, increase-speed, decrease-speed.
