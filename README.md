@@ -103,4 +103,4 @@ Using IntelliJ → Run → Edit Configuration, enter the formatting of command l
  Text output of smalldemo.txt
  
  -in src/main/resources/testfiles/buildings.txt -view playback <br>
- Display playback with bottons, includes loop, start, resume, restart, increase-speed, decrease-speed.
+ Display playback with bottons, includes loop, start, resume, restart, increase-speed, decrease-speed
