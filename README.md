@@ -6,6 +6,7 @@ The format of the input command such as:<br>
  -in "name-of-animation-file" -view "type-of-view" -out "where-output-show-go" -speed "integer-ticks-per-second"
 
 
+
 # Model
 
 Model represents an animated model, including shapes and actions. It is able to support 2D shapes that described rectangles and ovals. The model also supports adding various kinds of animations to shapes, such as moving, changing color, and changing shape.
@@ -71,6 +72,8 @@ JFrame initializes the drawing panel and draws shapes in the animation generated
 #### ButtonJFrameView
 ButtonJFrameView adds buttons and draws data from JFrameView. It will automatically draw animation when invoke it. Different button represents different functions, includes loop, start, pause, resume, restart, increase speed, and decrease speed. 
 Controller
+
+
 
 # Controller
 Controller launch methods for controlling the display of different views (visual, text, and SVG views). Complete the control connection from user click button option to the corresponding view action feedback.
